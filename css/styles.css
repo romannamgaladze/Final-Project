@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Water+Brush&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* .........main................. */
+
+.main-section {
+  width: 100%;
+  height: 768px;
+  border: 2px solid brown;
+  background-image: url(../images/main-background-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  padding: 20px 15px 0 15px;
+}
+
+.conteiner {
+  max-width: 1200px;
+  margin: 0px auto;
+  border: 2px solid green;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* ...................header.................... */
+.logo {
+  font-family: "Water Brush", cursive;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 100%;
+  color: #ee1c45;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.header-ul-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 50px;
+}
+.li-item {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 100%;
+  color: beige;
+  position: relative;
+}
+
+.li-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 1px;
+  width: 0%;
+  background-color: beige;
+  transition: 0.3s;
+}
+
+.li-item:hover::after {
+  width: 100%;
+}
+
+.sign {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 33px;
+}
+
+.sign-in {
+  font-weight: 700;
+}
+.btn-sign-up {
+  width: 100px;
+  height: 48px;
+  border-radius: 18px;
+  background: linear-gradient(
+    90deg,
+    rgba(205, 26, 64, 1) 0%,
+    rgba(255, 128, 60, 1) 50%
+  );
+  text-decoration: none;
+  box-shadow: 0px 5px 10px 0px rgba(205, 26, 64, 0.22);
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(205, 26, 64, 0.22);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(205, 26, 64, 0.22);
+}
+.btn-sign-up:hover::after {
+  width: 0%;
+}
+
+/* ...............main................... */
+.main-content {
+  width: 580px;
+  height: 415px;
+  border: 2px solid salmon;
+}
+.main-h2 {
+  font-family: "Water Brush", cursive;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 100%;
+  color: #ee1c45;
+  margin-bottom: 16px;
+}
+h1 {
+  font-size: 86px;
+  font-weight: 700;
+  line-height: 100%;
+  color: beige;
+  margin-bottom: 16px;
+}
+.para-main {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: beige;
+  margin-bottom: 16px;
+}
+
+.inputs {
+  width: 580px;
+  height: 96px;
+  border: 2px solid red;
+  border-radius: 28px;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px;
+}
+.span-line-input {
+  width: 1px;
+  height: 24px;
+  border: 1px solid #fff;
+}
