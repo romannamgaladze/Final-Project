@@ -6,6 +6,7 @@
     <title>Travel Agency</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
   </head>
   <body>
     <!-- main ცალკე გავაკეთო და header ცალკე! -->
@@ -27,6 +28,13 @@
               Sign Up
             </button>
           </div>
+
+          <a href="#" class="menu-icon"
+            ><img
+              src="./images/menu-svgrepo-com.svg"
+              alt="menu"
+              class="menu-size"
+          /></a>
         </header>
         <div class="main-content">
           <h2 class="main-h2">Explorer and Travel</h2>
@@ -38,20 +46,47 @@
             it.
           </p>
           <div class="inputs">
-            <!-- ........ფსევდოელემენტით ვცადო ინფუთების ზედა წარწერები....... -->
-            <img src="./images/location-icon.svg" alt="location-icon" />
+            <img
+              src="./images/location-icon.svg"
+              alt="location-icon"
+              class="location-icon"
+            />
             <select name="country" id="select-country">
               <option value="default">Country</option>
               <option value="georgia">Georgia</option>
               <option value="malaysia">Malaysia</option>
               <option value="dubai">dubai</option>
-              <option value="greece">Georgia</option>
+              <option value="greece">Greece</option>
               <option value="singapore">Singapore</option>
             </select>
             <span class="span-line-input"></span>
-            <img src="./images/date-icon.svg" alt="date-icon" />
-            <input type="date" class="date1" placeholder="Date" />
-            <img src="./images/search-icon.svg" alt="search-icon" />
+            <img
+              src="./images/date-icon.svg"
+              alt="date-icon"
+              class="date-icon"
+            />
+            <input type="date" id="date1" />
+            <button class="search-icon" type="submit">
+              <img src="./images/search-icon.svg" alt="search-icon" />
+            </button>
+          </div>
+          <div class="input1">
+            <select name="country" id="select-country">
+              <option value="default">Country</option>
+              <option value="georgia">Georgia</option>
+              <option value="malaysia">Malaysia</option>
+              <option value="dubai">dubai</option>
+              <option value="greece">Greece</option>
+              <option value="singapore">Singapore</option>
+            </select>
+          </div>
+          <div class="input2">
+            <input type="date" id="date1" />
+          </div>
+          <div class="div-button">
+            <button class="search-icon" type="submit">
+              <img src="./images/search-icon.svg" alt="search-icon" />
+            </button>
           </div>
         </div>
       </div>

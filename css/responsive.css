@@ -1,0 +1,102 @@
+/* ........header   768px......... */
+
+@media (max-width: 768px) {
+  .main-section {
+    padding: 20px 10px 0 10px;
+  }
+  .main-header {
+    margin-bottom: 195px;
+  }
+  .header-ul-list {
+    display: none;
+  }
+  .sign {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .menu-size {
+    width: 30px;
+  }
+
+  /* ..........main   768px......... */
+  .main-content {
+    margin: 0 auto;
+  }
+  .main-h2 {
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+    font-size: 55px;
+  }
+  .para-main {
+    text-align: center;
+  }
+  .inputs {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .location-icon {
+    display: none;
+  }
+  .date-icon {
+    display: none;
+  }
+  .search-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+  }
+}
+
+/* ........header   500px......... */
+@media (max-width: 500px) {
+  .logo {
+    font-size: 30px;
+  }
+  .main-header {
+    margin-bottom: 100px;
+  }
+  /* ..........main   500px......... */
+  .para-main {
+    margin-bottom: 20px;
+  }
+  .inputs {
+    display: none;
+  }
+  .input1 {
+    max-width: 180px;
+    min-height: 50px;
+    border: 2px solid red;
+    border-radius: 28px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0px auto;
+  }
+
+  .input2 {
+    max-width: 180px;
+    min-height: 50px;
+    border: 2px solid red;
+    border-radius: 28px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 5px auto 5px auto;
+  }
+  .div-button {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .search-icon {
+    width: 180px;
+  }
+}

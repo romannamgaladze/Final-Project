@@ -34,7 +34,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 120px;
+  margin-bottom: 150px;
+}
+.menu-icon {
+  display: none;
 }
 .header-ul-list {
   display: flex;
@@ -44,7 +47,7 @@
 }
 .li-item {
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 100%;
   color: beige;
   position: relative;
@@ -95,9 +98,10 @@
 
 /* ...............main................... */
 .main-content {
-  width: 580px;
-  height: 415px;
+  max-width: 580px;
+  min-height: 415px;
   border: 2px solid salmon;
+  position: relative;
 }
 .main-h2 {
   font-family: "Water Brush", cursive;
@@ -105,26 +109,26 @@
   font-weight: 400;
   line-height: 100%;
   color: #ee1c45;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 h1 {
   font-size: 86px;
   font-weight: 700;
   line-height: 100%;
   color: beige;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 .para-main {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   color: beige;
-  margin-bottom: 16px;
+  margin-bottom: 50px;
 }
 
 .inputs {
-  width: 580px;
-  height: 96px;
+  max-width: 580px;
+  min-height: 96px;
   border: 2px solid red;
   border-radius: 28px;
   backdrop-filter: blur(10px);
@@ -137,4 +141,42 @@ h1 {
   width: 1px;
   height: 24px;
   border: 1px solid #fff;
+}
+#select-country {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: beige;
+  background-color: transparent;
+  border: none;
+}
+
+#date1 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: beige;
+  background-color: transparent;
+  border: none;
+}
+
+.search-icon {
+  width: 65px;
+  height: 65px;
+  border-radius: 18px;
+  background: linear-gradient(
+    90deg,
+    rgba(205, 26, 64, 1) 0%,
+    rgba(255, 128, 60, 1) 50%
+  );
+}
+
+.input1 {
+  display: none;
+}
+.input2 {
+  display: none;
+}
+.div-button {
+  display: none;
 }
