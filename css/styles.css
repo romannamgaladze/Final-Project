@@ -7,7 +7,7 @@
   width: 100%;
   height: 768px;
   /* border: 2px solid brown; */
-  background-image: url(../images/main-background-img.jpg);
+  background-image: url(../images/main/main-background-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -22,7 +22,7 @@
   font-family: "Work Sans", sans-serif;
 }
 
-/* ...................header.................... */
+/* ...................HEADER.................... */
 .logo {
   font-family: "Water Brush", cursive;
   font-size: 35px;
@@ -97,7 +97,7 @@
   width: 0%;
 }
 
-/* ...............main................... */
+/* ...............MAIN................... */
 .main-content {
   max-width: 580px;
   min-height: 415px;
@@ -182,7 +182,11 @@ h1 {
   display: none;
 }
 
-/* ........section destination.......... */
+/* ........SECTION DESTINATION.......... */
+
+.section-destination {
+  margin-bottom: 100px;
+}
 
 h3 {
   font-weight: 200;
@@ -259,4 +263,24 @@ span {
   height: 54px;
   font-weight: 400;
   margin: 0px auto;
+}
+
+/* ........SECTION ACTIVITIES.......... */
+.card-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 15px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.card-item {
+  width: 378px;
+  height: 412px;
+  border: 1px solid yellowgreen;
+  flex: 1 1 300px;
+  max-width: calc(50% - 10px);
+  background-color: #fff9f0;
+  padding: 58px 33px 33px;
+  text-align: center;
 }
