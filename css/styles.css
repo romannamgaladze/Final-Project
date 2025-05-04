@@ -249,7 +249,7 @@ span {
     rgba(255, 128, 60, 1) 50%
   );
 }
-.div-button {
+.div-button-destination {
   display: flex;
   justify-content: center;
   align-items: center;
