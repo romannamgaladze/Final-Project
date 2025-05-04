@@ -123,3 +123,10 @@
     max-width: 100%;
   }
 }
+
+@media (max-width: 555px) {
+  .card-item {
+    flex: 1 1 500px;
+    max-width: 100%;
+  }
+}
