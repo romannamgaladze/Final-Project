@@ -18,7 +18,7 @@
 .conteiner {
   max-width: 1200px;
   margin: 0px auto;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   font-family: "Work Sans", sans-serif;
 }
 
@@ -213,8 +213,8 @@ span {
 }
 
 .image-item {
-  flex: 1 1 250px; /* grow, shrink, basis */
-  max-width: calc(50% - 10px); /* Two images per row on medium screens */
+  flex: 1 1 250px;
+  max-width: calc(50% - 10px);
   position: relative;
 }
 
@@ -266,6 +266,9 @@ span {
 }
 
 /* ........SECTION ACTIVITIES.......... */
+.section-activities {
+  margin-bottom: 100px;
+}
 .card-flex {
   display: flex;
   flex-wrap: wrap;
@@ -277,7 +280,7 @@ span {
 .card-item {
   width: 378px;
   height: 412px;
-  border: 1px solid yellowgreen;
+  /* border: 1px solid yellowgreen; */
   flex: 1 1 300px;
   max-width: calc(50% - 10px);
   background-color: #fff9f0;
@@ -311,4 +314,40 @@ h4 {
   box-shadow: 0px 5px 10px 0px rgba(205, 26, 64, 0.22);
   -webkit-box-shadow: 0px 5px 10px 0px rgba(205, 26, 64, 0.22);
   -moz-box-shadow: 0px 5px 10px 0px rgba(205, 26, 64, 0.22);
+}
+
+/* ......................TOUR PACKAGES.............. */
+.section-tour {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.card-tour {
+  border: 2px solid burlywood;
+  padding: 0px;
+  flex: 1 1 200px;
+  max-width: calc(50% - 10px);
+}
+h5 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: start;
+  color: #1e1e1e;
+  margin-top: 18px;
+  margin-bottom: 6px;
+}
+.para-tour {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: start;
+}
+.span-price {
+  color: #1e1e1e;
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
 }
