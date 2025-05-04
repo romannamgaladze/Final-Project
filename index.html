@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="./css/responsive.css" />
   </head>
   <body>
-    <!-- main ცალკე გავაკეთო და header ცალკე! -->
     <main class="main-section">
       <div class="conteiner">
         <header class="main-header">
@@ -45,51 +44,90 @@
             waiting to be discovered. dont just see the world, truly experience
             it.
           </p>
-          <div class="inputs">
-            <img
-              src="./images/location-icon.svg"
-              alt="location-icon"
-              class="location-icon"
-            />
-            <select name="country" id="select-country">
-              <option value="default">Country</option>
-              <option value="georgia">Georgia</option>
-              <option value="malaysia">Malaysia</option>
-              <option value="dubai">dubai</option>
-              <option value="greece">Greece</option>
-              <option value="singapore">Singapore</option>
-            </select>
-            <span class="span-line-input"></span>
-            <img
-              src="./images/date-icon.svg"
-              alt="date-icon"
-              class="date-icon"
-            />
-            <input type="date" id="date1" />
-            <button class="search-icon" type="submit">
-              <img src="./images/search-icon.svg" alt="search-icon" />
-            </button>
-          </div>
-          <div class="input1">
-            <select name="country" id="select-country">
-              <option value="default">Country</option>
-              <option value="georgia">Georgia</option>
-              <option value="malaysia">Malaysia</option>
-              <option value="dubai">dubai</option>
-              <option value="greece">Greece</option>
-              <option value="singapore">Singapore</option>
-            </select>
-          </div>
-          <div class="input2">
-            <input type="date" id="date1" />
-          </div>
-          <div class="div-button">
-            <button class="search-icon" type="submit">
-              <img src="./images/search-icon.svg" alt="search-icon" />
-            </button>
-          </div>
+          <form action="action_page.php">
+            <div class="inputs">
+              <img
+                src="./images/location-icon.svg"
+                alt="location-icon"
+                class="location-icon"
+              />
+              <select name="country" id="select-country">
+                <option value="default">Country</option>
+                <option value="georgia">Georgia</option>
+                <option value="malaysia">Malaysia</option>
+                <option value="dubai">Dubai</option>
+                <option value="greece">Greece</option>
+              </select>
+              <span class="span-line-input"></span>
+              <img
+                src="./images/date-icon.svg"
+                alt="date-icon"
+                class="date-icon"
+              />
+              <input type="date" id="date1" />
+              <button class="search-icon" type="submit">
+                <img src="./images/search-icon.svg" alt="search-icon" />
+              </button>
+            </div>
+            <div class="input1">
+              <select name="country" id="select-country">
+                <option value="default">Country</option>
+                <option value="georgia">Georgia</option>
+                <option value="malaysia">Malaysia</option>
+                <option value="dubai">dubai</option>
+                <option value="greece">Greece</option>
+              </select>
+            </div>
+            <div class="input2">
+              <input type="date" id="date1" />
+            </div>
+            <div class="div-button">
+              <button class="search-icon" type="submit">
+                <img src="./images/search-icon.svg" alt="search-icon" />
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </main>
+    <section class="conteiner">
+      <h3>
+        <span>Choose your</span> <br />
+        DESTINATION
+      </h3>
+      <div class="image-flex">
+        <div class="image-item">
+          <img src="./images/old-tbilisi-img.jpg" alt="tbili" />
+          <div class="para-btn">
+            <p class="para-btn-country">Georgia</p>
+            <button type="button" class="btn-tours">16 TOURS</button>
+          </div>
+        </div>
+        <div class="image-item">
+          <img src="./images/dubai-img.jpg" alt="dubai" />
+          <div class="para-btn">
+            <p class="para-btn-country">Dubai</p>
+            <button type="button" class="btn-tours">16 TOURS</button>
+          </div>
+        </div>
+        <div class="image-item">
+          <img src="./images/greece-img.jpg" alt="greece" />
+          <div class="para-btn">
+            <p class="para-btn-country">Greece</p>
+            <button type="button" class="btn-tours">16 TOURS</button>
+          </div>
+        </div>
+        <div class="image-item">
+          <img src="./images/malaysia-img.jpg" alt="malaysia" />
+          <div class="para-btn">
+            <p class="para-btn-country">Malaysia</p>
+            <button type="button" class="btn-tours">16 TOURS</button>
+          </div>
+        </div>
+      </div>
+      <div class="div-button">
+        <button type="button" class="btn-tours btn-view-more">VIEW MORE</button>
+      </div>
+    </section>
   </body>
 </html>

@@ -1,9 +1,9 @@
 /* ........header   768px......... */
 
 @media (max-width: 768px) {
-  .main-section {
-    padding: 20px 10px 0 10px;
-  }
+  /* .main-section {
+    padding: 20px 15px 0 10px;
+  } */
   .main-header {
     margin-bottom: 195px;
   }
@@ -24,7 +24,7 @@
   .main-content {
     margin: 0 auto;
   }
-  .main-h2 {
+  .main-h3 {
     text-align: center;
   }
   h1 {
@@ -49,9 +49,19 @@
     height: 45px;
     border-radius: 10px;
   }
+
+  /* ...........section   destination.............. */
+  h3 {
+    font-size: 50px;
+  }
+  span {
+    font-size: 35px;
+  }
 }
 
-/* ........header   500px......... */
+/* .....   500px......... */
+
+/* .......header.......... */
 @media (max-width: 500px) {
   .logo {
     font-size: 30px;
@@ -59,7 +69,7 @@
   .main-header {
     margin-bottom: 100px;
   }
-  /* ..........main   500px......... */
+  /* ..........main......... */
   .para-main {
     margin-bottom: 20px;
   }
@@ -98,5 +108,18 @@
   }
   .search-icon {
     width: 180px;
+    border-radius: 28px;
+  }
+  /* ..........section  destination......... */
+
+  h3 {
+    font-size: 35px;
+  }
+  span {
+    font-size: 25px;
+  }
+  .image-item {
+    flex: 1 1 500px;
+    max-width: 100%;
   }
 }

@@ -12,12 +12,13 @@
   background-size: cover;
   background-position: bottom;
   padding: 20px 15px 0 15px;
+  margin-bottom: 70px;
 }
 
 .conteiner {
   max-width: 1200px;
   margin: 0px auto;
-  /* border: 2px solid green; */
+  border: 2px solid green;
   font-family: "Work Sans", sans-serif;
 }
 
@@ -179,4 +180,83 @@ h1 {
 }
 .div-button {
   display: none;
+}
+
+/* ........section destination.......... */
+
+h3 {
+  font-weight: 200;
+  font-size: 64px;
+  line-height: 100%;
+  color: #1e1e1e;
+  text-align: center;
+  margin-bottom: 35px;
+}
+span {
+  font-weight: 400;
+  font-size: 46px;
+  color: #cd1a40;
+  font-family: "Water Brush", cursive;
+}
+
+.image-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 15px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.image-item {
+  flex: 1 1 250px; /* grow, shrink, basis */
+  max-width: calc(50% - 10px); /* Two images per row on medium screens */
+  position: relative;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.para-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.para-btn-country {
+  font-family: "Water Brush", cursive;
+  font-size: 46px;
+  line-height: 100%;
+  color: beige;
+  margin-bottom: 20px;
+}
+.btn-tours {
+  width: 100px;
+  height: 48px;
+  border-radius: 18px;
+  font-size: 14px;
+  color: beige;
+  line-height: 100%;
+
+  background: linear-gradient(
+    90deg,
+    rgba(205, 26, 64, 1) 0%,
+    rgba(255, 128, 60, 1) 50%
+  );
+}
+.div-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-view-more {
+  width: 122px;
+  height: 54px;
+  font-weight: 400;
+  margin: 0px auto;
 }
