@@ -382,4 +382,47 @@ h5 {
   position: absolute;
   left: 0;
   bottom: 0;
+  /* transform: scale(0.5); */
+}
+h6 {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 100%;
+  color: beige;
+}
+.para-subscription {
+  font-size: 16px;
+  color: beige;
+  line-height: 26px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+
+.div-input {
+  position: relative;
+}
+.input-email {
+  width: 580px;
+  height: 74px;
+  outline: none;
+  border: none;
+  backdrop-filter: blur(6px);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  background-color: #ffffff33;
+  color: #ffffff;
+  position: relative;
+  padding-left: 26px;
+}
+input::placeholder {
+  color: beige;
+}
+.btn-arrow-icon {
+  width: 80px;
+  height: 74px;
+  background-color: beige;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
