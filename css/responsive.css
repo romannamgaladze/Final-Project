@@ -1,3 +1,18 @@
+@media (max-width: 1150px) {
+  /* ........section subscription.......... */
+  .section-subscription {
+    margin-top: 150px;
+  }
+  .building-img-large {
+    display: none;
+  }
+  .jandaba {
+    justify-content: start;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
 /* ........header   768px......... */
 
 @media (max-width: 768px) {
@@ -56,6 +71,32 @@
   }
   span {
     font-size: 35px;
+  }
+
+  /* ........ section subscription............. */
+  .div-subscription {
+    height: 280px;
+  }
+  h6 {
+    font-size: 36px;
+  }
+  .para-subscription {
+    font-size: 14px;
+  }
+  .div-input {
+    width: 380px;
+  }
+  .input-email {
+    width: 300px;
+  }
+}
+
+/* ............................... */
+
+@media (max-width: 555px) {
+  .card-item {
+    flex: 1 1 500px;
+    max-width: 100%;
   }
 }
 
@@ -122,11 +163,19 @@
     flex: 1 1 500px;
     max-width: 100%;
   }
-}
 
-@media (max-width: 555px) {
-  .card-item {
-    flex: 1 1 500px;
-    max-width: 100%;
+  /* .............. section subscription.............. */
+  .div-input {
+    width: 270px;
+    height: 50px;
+  }
+  .input-email {
+    width: 210px;
+    height: 50px;
+  }
+
+  .btn-arrow-icon {
+    width: 60px;
+    height: 50px;
   }
 }
