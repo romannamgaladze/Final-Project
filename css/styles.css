@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Water+Brush&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* .........main................. */
+body {
+  scroll-behavior: smooth;
+}
 
 .main-section {
   width: 100%;
@@ -216,6 +219,10 @@ span {
   flex: 1 1 250px;
   max-width: calc(50% - 10px);
   position: relative;
+  transition: 0.5s ease-in;
+}
+.image-item:hover {
+  transform: scale(1.05);
 }
 
 .image-item img {
@@ -246,12 +253,16 @@ span {
   font-size: 14px;
   color: beige;
   line-height: 100%;
+  transition: 0.4s ease-in;
 
   background: linear-gradient(
     90deg,
     rgba(205, 26, 64, 1) 0%,
     rgba(255, 128, 60, 1) 50%
   );
+}
+.btn-tours:hover {
+  transform: scale(1.05);
 }
 .div-button-destination {
   display: flex;
@@ -288,9 +299,23 @@ span {
   text-align: center;
   color: #999999;
   border-radius: 6px;
+  transition: 1s ease-in-out;
   box-shadow: 0px 5px 10px 0px rgba(191, 188, 188, 0.22);
   -webkit-box-shadow: 0px 5px 10px 0px rgba(191, 188, 188, 0.22);
   -moz-box-shadow: 0px 5px 10px 0px rgba(191, 188, 188, 0.22);
+}
+
+.card-item:hover {
+  transform: scale(1.05);
+  color: beige;
+  background: linear-gradient(
+    90deg,
+    rgba(205, 26, 64, 1) 0%,
+    rgba(255, 128, 60, 1) 50%
+  );
+  box-shadow: 0px 5px 10px 0px rgba(205, 26, 64, 0.22);
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(205, 26, 64, 0.22);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(205, 26, 64, 0.22);
 }
 h4 {
   font-weight: 700;
@@ -305,15 +330,6 @@ h4 {
   line-height: 22px;
 }
 .card-adventure {
-  color: beige;
-  background: linear-gradient(
-    90deg,
-    rgba(205, 26, 64, 1) 0%,
-    rgba(255, 128, 60, 1) 50%
-  );
-  box-shadow: 0px 5px 10px 0px rgba(205, 26, 64, 0.22);
-  -webkit-box-shadow: 0px 5px 10px 0px rgba(205, 26, 64, 0.22);
-  -moz-box-shadow: 0px 5px 10px 0px rgba(205, 26, 64, 0.22);
 }
 
 /* ................ SECTION TOUR PACKAGES.............. */
