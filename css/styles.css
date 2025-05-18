@@ -146,7 +146,7 @@ h1 {
   height: 24px;
   border: 1px solid #fff;
 }
-#select-country {
+.select-country {
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
@@ -155,7 +155,7 @@ h1 {
   border: none;
 }
 
-#date1 {
+.date1 {
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
@@ -328,8 +328,6 @@ h4 {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-}
-.card-adventure {
 }
 
 /* ................ SECTION TOUR PACKAGES.............. */
